@@ -16,9 +16,17 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 The script run_analysis.R is broken down into 7 different sections:
 
-0. Reading all relevant data from files
-1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+0. Reading all relevant data from files:
+  * features.txt - this file contains all individual measurement names
+  * activity_labels.txt - this file contains activity id and the corresponding activity name
+  * train\subject_train.txt - this file contains subject id for each record in the training dataset
+  * train\X_train.txt - this file contains the training dataset values of each measurement
+  * train\y_train.txt - this file contains the activity id for each record
+  * test\subject_test.txt - this file contains subject id for each record in the test dataset
+  * test\X_test.txt - this file ctonains the test dataset values of each measurement
+  * test\y_test.txt - this file contains the activity id for each recor
+1. Merges the training and the test sets to create one data set, using rbind & cbind
+2. Extracts only the measurements on the mean and standard deviation for each measurement. test
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
