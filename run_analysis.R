@@ -130,11 +130,8 @@ meanBySA2<-ddply(meltedData, .(SubjectID, Activity, variable), summarise, mean=m
 ##
 ######################################################################################
 
-## result from step 1 - allData
-## result from step 4 - labeledData
+
 ## result from step 5 - meanBySA1, meanBySA1
 
-write.csv(allData, file="Step 1 All Data.csv", row.names=FALSE)
-write.csv(labeledData, file="Step 4 Labeled Data.csv", row.names=FALSE)
-write.csv(meanBySA1, file="Step 5 Mean by SA Wide.csv", row.names=FALSE)
-write.csv(meanBySA2, file="Step 5 Mean by SA Tall.csv", row.names=FALSE)
+write.table(meanBySA1, file="Mean by SA Wide.txt", row.names=FALSE)
+write.table(meanBySA2, file="Mean by SA Tall.txt", row.names=FALSE)
