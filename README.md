@@ -34,10 +34,10 @@ The script run_analysis.R is broken down into 7 different sections:
 
 ## Results:
 
-1. Step 1 All Data.csv - this is the result from Step 1 with data from both training dataset and test dataset, along with Subject ID & ActivityID 
-2. Step 4 Labeled Data.csv - this is the result from Step 2 - 4 with only the measurements on the mean and standard deviation for each measurement along with description activity name (the very last column) and appropriate column name to describe the variables
-3. Step 5 Mean By SA Tall.csv - this is the result from Step 5, which is a second data set summarized from step 4 result with mean value, and this dataset is a tall data tidy data.
-4. Step 5 Mean By SA Wide.csv - this is alternative result similar to the Tall one but this one has all the measurements listed as column names.
+1. **_Step 1 All Data.csv_** - this is the result from Step 1 with data from both training dataset and test dataset, along with Subject ID & ActivityID 
+2. **_Step 4 Labeled Data.csv_** - this is the result from Step 2 - 4 with only the measurements on the mean and standard deviation for each measurement along with description activity name (the very last column) and appropriate column name to describe the variables
+3. **_Step 5 Mean By SA Tall.csv_** - this is the result from Step 5, which is a second data set summarized from step 4 result with mean value, and this dataset is a tall data tidy data.
+4. **_Step 5 Mean By SA Wide.csv_** - this is alternative result similar to the Tall one but this one has all the measurements listed as column names.
 
 
 
