@@ -34,7 +34,7 @@ measureTest<-read.table(paste(basePath, "test/X_test.txt", sep=""))
 
 ######################################################################################
 ##
-## 1.Merges the training and the test sets to create one data set.
+## Merges the training and the test sets to create one data set.
 ##
 ######################################################################################
 
@@ -51,8 +51,8 @@ setkey(allData, ActivityID)
 
 ######################################################################################
 ##
-## 2.Extracts only the measurements on the mean and standard deviation for 
-##   each measurement. 
+## Extracts only the measurements on the mean and standard deviation for 
+## each measurement. 
 ##
 ######################################################################################
 
@@ -75,7 +75,7 @@ selectedData<-cbind(allSubjects, allActivities, selectedMeasures)
 
 ######################################################################################
 ##
-## 3.Uses descriptive activity names to name the activities in the data set
+## Uses descriptive activity names to name the activities in the data set
 ##
 ######################################################################################
 
@@ -87,7 +87,7 @@ labeledData<-merge(selectedData, activityLabels)
 
 ######################################################################################
 ##
-## 4.Appropriately labels the data set with descriptive variable names. 
+## Appropriately labels the data set with descriptive variable names. 
 ##
 ######################################################################################
 
@@ -98,8 +98,8 @@ setnames(labeledData, 3:81, allMeasures)
 
 ######################################################################################
 ##
-## 5.From the data set in step 4, creates a second, independent tidy data set with 
-##   the average of each variable for each activity and each subject.
+## From the data set in step 4, creates a second, independent tidy data set with 
+## the average of each variable for each activity and each subject.
 ##
 ######################################################################################
 
@@ -124,3 +124,17 @@ meanBySA2<-ddply(meltedData, .(SubjectID, Activity, variable), summarise, mean=m
 ## all measures in the same row while the later is much skinny/taller data set with SubjectID
 ## Activity, variable then mean.
 
+######################################################################################
+##
+## Write results into files
+##
+######################################################################################
+
+## result from step 1 - allData
+## result from step 4 - labeledData
+## result from step 5 - meanBySA1, meanBySA1
+
+write.csv(allData, file="Step 1 All Data.csv", row.names=FALSE)
+write.csv(labeledData, file="Step 4 Labeled Data.csv", row.names=FALSE)
+write.csv(meanBySA1, file="Step 5 Mean by SA Wide.csv", row.names=FALSE)
+write.csv(meanBySA2, file="Step 5 Mean by SA Tall.csv", row.names=FALSE)
