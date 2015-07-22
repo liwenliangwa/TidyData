@@ -14,6 +14,8 @@ The submission of the project should includes:
 The data (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) for this project were collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
+## How the script works?
+
 The script run_analysis.R is broken down into 7 different sections:
 
 0. Reading all relevant data from files:
@@ -26,10 +28,10 @@ The script run_analysis.R is broken down into 7 different sections:
   * test\X_test.txt - this file ctonains the test dataset values of each measurement
   * test\y_test.txt - this file contains the activity id for each recor
 1. Merges the training and the test sets to create one data set, using rbind & cbind
-2. Extracts only the measurements on the mean and standard deviation for each measurement. test
-3. Uses descriptive activity names to name the activities in the data set
-4. Appropriately labels the data set with descriptive variable names. 
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+2. Extracts only the measurements on the mean and standard deviation for each measurement by subsetting the feature list.
+3. Uses descriptive activity names to name the activities in the data set, this is done by using the merge() function to associate activity ID with its corresponding activity name.
+4. Appropriately labels the data set with descriptive variable names, this is done by setting the column names of the data set using the subsetted feature list, and remove unnecessary "()"
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject, This is accomplished by using melt() and dcast() funciton to reshape the raw datasets.
 6. Output the data into files
 
 ## Results:
