@@ -1,16 +1,16 @@
 # Code Book (Data Dictionary)
 
-##SubjectID 
+###SubjectID 
 
-  *Subject: Identifier to identify the participant in a group of 30 volunteers within an age bracket of 19-48 years
-  *Length: 1 ~ 2 
-  *Value: Between 1 to 30
+  * Subject: Identifier to identify the participant in a group of 30 volunteers within an age bracket of 19-48 years
+  * Length: 1 ~ 2 
+  * Value: Between 1 to 30
 	
-##Activity
+###Activity
 
-  *Activity performed by the subject
-  *Length: 6 ~ 18 
-  *Value: one of the following
+  * Activity performed by the subject
+  * Length: 6 ~ 18 
+  * Value: one of the following
   
     1. WALKING
     2. WALKING_UPSTAIRS
@@ -19,409 +19,476 @@
     5. STANDING 
     6. LAYING
   
-##tBodyAcc-mean-X 
+###tBodyAcc-mean-X 
 
-  *In time domain, average value of mean body acceleration for the subject performing given activity from accelerator in X direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+  *  In time domain, average value of mean body acceleration for the subject performing given activity from accelerator in X direction collected during experiment
+  *  Data type: real number
+  *  Value: between [-1, 1]
   
-##tBodyAcc-mean-Y 
+###tBodyAcc-mean-Y 
 
-  *In time domain, average value of mean body acceleration for the subject performing given activity from accelerator in Y direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+  *  In time domain, average value of mean body acceleration for the subject performing given activity from accelerator in Y direction collected during experiment
+  *  Data type: real number
+  *  Value: between [-1, 1]
   
-##tBodyAcc-mean-Z 
+###tBodyAcc-mean-Z 
 
-  *In time domain, average value of mean body acceleration for the subject performing given activity from accelerator in Z direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+  *  In time domain, average value of mean body acceleration for the subject performing given activity from accelerator in Z direction collected during experiment
+  *  Data type: real number
+  *  Value: between [-1, 1]
   
-##tGravityAcc-mean-X
+###tGravityAcc-mean-X
 
-  *In time domain, average value of mean gravity acceleration for the subject performing given activity from accelerator in X direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+  *  In time domain, average value of mean gravity acceleration for the subject performing given activity from accelerator in X direction collected during experiment 
+  *  Data type: real number
+  *  Value: between [-1, 1]
   
-##tGravityAcc-mean-Y 
+###tGravityAcc-mean-Y 
 
-  *In time domain, average value of mean gravity acceleration for the subject performing given activity from accelerator in Y direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+  *  In time domain, average value of mean gravity acceleration for the subject performing given activity from accelerator in Y direction collected during experiment 
+  *  Data type: real number
+  *  Value: between [-1, 1]
   
-##tGravityAcc-mean-Z 
+###tGravityAcc-mean-Z 
 
-  *In time domain, average value of mean gravity acceleration for the subject performing given activity from accelerator in Z direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+  *  In time domain, average value of mean gravity acceleration for the subject performing given activity from accelerator in Z direction collected during experiment 
+  *  Data type: real number
+  *  Value: between [-1, 1]
   
-##tBodyAccJerk-mean-X 
+###tBodyAccJerk-mean-X 
 
-  *In time domain, average value of mean body acceleration of jerk signal for the subject performing given activity from accelerator in X direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+  *  In time domain, average value of mean body acceleration of jerk signal for the subject performing given activity from accelerator in X direction collected during experiment 
+  *  Data type: real number
+  *  Value: between [-1, 1]
   
-##tBodyAccJerk-mean-Y 
+###tBodyAccJerk-mean-Y 
 
-  *In time domain, average value of mean body acceleration of jerk signal for the subject performing given activity from accelerator in Y direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+  *  In time domain, average value of mean body acceleration of jerk signal for the subject performing given activity from accelerator in Y direction collected during experiment 
+  *  Data type: real number
+  *  Value: between [-1, 1]
   
-##tBodyAccJerk-mean-Z 
+###tBodyAccJerk-mean-Z 
 
-  *In time domain, average value of mean body acceleration of jerk signal for the subject performing given activity from accelerator in Z direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+  * In time domain, average value of mean body acceleration of jerk signal for the subject performing given activity from accelerator in Z direction collected during experiment 
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyGyro-mean-X
+###tBodyGyro-mean-X
 
-  *In time domain, average value of mean body Angular velocity for the subject performing given activity from gyroscope in X direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+  * In time domain, average value of mean body Angular velocity for the subject performing given activity from gyroscope in X direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyGyro-mean-Y 
+###tBodyGyro-mean-Y 
 
-  *In time domain, average value of mean body angular velocity for the subject performing given activity from gyroscope in Y direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+  * In time domain, average value of mean body angular velocity for the subject performing given activity from gyroscope in Y direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyGyro-mean-Z 
-  *In time domain, average value of mean body angular velocity for the subject performing given activity from gyroscope in Z direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyGyro-mean-Z 
+
+  * In time domain, average value of mean body angular velocity for the subject performing given activity from gyroscope in Z direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyGyroJerk-mean-X 
-  *In time domain, average value of mean body angular velocity of jerk signal for the subject performing given activity from accelerator in X direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyGyroJerk-mean-X 
+
+  * In time domain, average value of mean body angular velocity of jerk signal for the subject performing given activity from accelerator in X direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyGyroJerk-mean-Y 
-  *In time domain, average value of mean body angular velocity of jerk signal for the subject performing given activity from accelerator in Y direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyGyroJerk-mean-Y 
+
+  * In time domain, average value of mean body angular velocity of jerk signal for the subject performing given activity from accelerator in Y direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyGyroJerk-mean-Z 
-  *In time domain, average value of mean body angular velocity of jerk signal for the subject performing given activity from accelerator in Z direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyGyroJerk-mean-Z 
+
+  * In time domain, average value of mean body angular velocity of jerk signal for the subject performing given activity from accelerator in Z direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyAccMag-mean 
-  *In time domain, average value of mean body acceleration magnitude for the subject performing given activity from accelerator collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyAccMag-mean 
+
+  * In time domain, average value of mean body acceleration magnitude for the subject performing given activity from accelerator collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tGravityAccMag-mean 
-  *In time domain, average value of mean gravity acceleration magnitude for the subject performing given activity from accelerator collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###tGravityAccMag-mean 
+
+  * In time domain, average value of mean gravity acceleration magnitude for the subject performing given activity from accelerator collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyAccJerkMag-mean 
-  *In time domain, average value of mean body acceleration magnitude of the jerk signal for the subject performing given activity from accelerator collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyAccJerkMag-mean 
+
+  * In time domain, average value of mean body acceleration magnitude of the jerk signal for the subject performing given activity from accelerator collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyGyroMag-mean 
-  *In time domain, average value of mean body angular velocity magnitude for the subject performing given activity from gyroscope collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyGyroMag-mean 
+
+  * In time domain, average value of mean body angular velocity magnitude for the subject performing given activity from gyroscope collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyGyroJerkMag-mean 
-  *In time domain, average value of mean body angular velocity magnitude of the jerk signal for the subject performing given activity from gyroscope collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyGyroJerkMag-mean 
+
+  * In time domain, average value of mean body angular velocity magnitude of the jerk signal for the subject performing given activity from gyroscope collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyAcc-mean-X 
-  *In frequency domain, average value of mean body acceleration for the subject performing given activity from accelerator in X direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyAcc-mean-X 
+
+  * In frequency domain, average value of mean body acceleration for the subject performing given activity from accelerator in X direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyAcc-mean-Y 
-  *In frequency domain, average value of mean body acceleration for the subject performing given activity from accelerator in Y direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyAcc-mean-Y 
+
+  * In frequency domain, average value of mean body acceleration for the subject performing given activity from accelerator in Y direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyAcc-mean-Z
-  *In frequency domain, average value of mean body acceleration for the subject performing given activity from accelerator in Z direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyAcc-mean-Z
+
+  * In frequency domain, average value of mean body acceleration for the subject performing given activity from accelerator in Z direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyAcc-meanFreq-X 
-  *In frequency domain, average value of weighted mean body acceleration for the subject performing given activity from accelerator in X direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyAcc-meanFreq-X 
+
+  * In frequency domain, average value of weighted mean body acceleration for the subject performing given activity from accelerator in X direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyAcc-meanFreq-Y
-  *In frequency domain, average value of weighted mean body acceleration for the subject performing given activity from accelerator in Y direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyAcc-meanFreq-Y
+
+  * In frequency domain, average value of weighted mean body acceleration for the subject performing given activity from accelerator in Y direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyAcc-meanFreq-Z 
-  *In frequency domain, average value of weighted mean body acceleration for the subject performing given activity from accelerator in Z direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyAcc-meanFreq-Z 
+
+  * In frequency domain, average value of weighted mean body acceleration for the subject performing given activity from accelerator in Z direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyAccJerk-mean-X 
-  *In frequency domain, average value of mean body acceleration of jerk signal for the subject performing given activity from accelerator in X direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyAccJerk-mean-X 
+
+  * In frequency domain, average value of mean body acceleration of jerk signal for the subject performing given activity from accelerator in X direction collected during experiment 
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyAccJerk-mean-Y
-  *In frequency domain, average value of mean body acceleration of jerk signal for the subject performing given activity from accelerator in Y direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyAccJerk-mean-Y
+
+  * In frequency domain, average value of mean body acceleration of jerk signal for the subject performing given activity from accelerator in Y direction collected during experiment 
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyAccJerk-mean-Z
-  *In frequency domain, average value of mean body acceleration of jerk signal for the subject performing given activity from accelerator in Z direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyAccJerk-mean-Z
+
+  * In frequency domain, average value of mean body acceleration of jerk signal for the subject performing given activity from accelerator in Z direction collected during experiment 
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyAccJerk-meanFreq-X 
-  *In frequency domain, average value of weighted mean body acceleration of jerk signal for the subject performing given activity from accelerator in X direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyAccJerk-meanFreq-X 
+
+  * In frequency domain, average value of weighted mean body acceleration of jerk signal for the subject performing given activity from accelerator in X direction collected during experiment 
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyAccJerk-meanFreq-Y 
-  *In frequency domain, average value of weighted mean body acceleration of jerk signal for the subject performing given activity from accelerator in Y direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyAccJerk-meanFreq-Y 
+
+  * In frequency domain, average value of weighted mean body acceleration of jerk signal for the subject performing given activity from accelerator in Y direction collected during experiment 
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyAccJerk-meanFreq-Z
-  *In frequency domain, average value of weighted mean body acceleration of jerk signal for the subject performing given activity from accelerator in Z direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyAccJerk-meanFreq-Z
+
+  * In frequency domain, average value of weighted mean body acceleration of jerk signal for the subject performing given activity from accelerator in Z direction collected during experiment 
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyGyro-mean-X 
-  *In frequency domain, average value of mean body Angular velocity for the subject performing given activity from gyroscope in X direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyGyro-mean-X 
+
+  * In frequency domain, average value of mean body Angular velocity for the subject performing given activity from gyroscope in X direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyGyro-mean-Y 
-  *In frequency domain, average value of mean body Angular velocity for the subject performing given activity from gyroscope in Y direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyGyro-mean-Y 
+
+  * In frequency domain, average value of mean body Angular velocity for the subject performing given activity from gyroscope in Y direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyGyro-mean-Z 
-  *In frequency domain, average value of mean body Angular velocity for the subject performing given activity from gyroscope in Z direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyGyro-mean-Z 
+
+  * In frequency domain, average value of mean body Angular velocity for the subject performing given activity from gyroscope in Z direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyGyro-meanFreq-X 
-  *In frequency domain, average value of weighted mean body Angular velocity for the subject performing given activity from gyroscope in X direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyGyro-meanFreq-X 
+
+  * In frequency domain, average value of weighted mean body Angular velocity for the subject performing given activity from gyroscope in X direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyGyro-meanFreq-Y 
-  *In frequency domain, average value of weighted mean body Angular velocity for the subject performing given activity from gyroscope in Y direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyGyro-meanFreq-Y 
+
+  * In frequency domain, average value of weighted mean body Angular velocity for the subject performing given activity from gyroscope in Y direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyGyro-meanFreq-Z 
-  *In frequency domain, average value of weighted mean body Angular velocity for the subject performing given activity from gyroscope in Z direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyGyro-meanFreq-Z 
+
+  * In frequency domain, average value of weighted mean body Angular velocity for the subject performing given activity from gyroscope in Z direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyAccMag-mean
-  *In frequency domain, average value of mean body acceleration magnitude for the subject performing given activity from accelerator collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyAccMag-mean
+
+  * In frequency domain, average value of mean body acceleration magnitude for the subject performing given activity from accelerator collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyAccMag-meanFreq 
-  *In fequency domain, average value of weighted mean body acceleration magnitude for the subject performing given activity from accelerator collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyAccMag-meanFreq 
+
+  * In fequency domain, average value of weighted mean body acceleration magnitude for the subject performing given activity from accelerator collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyBodyAccJerkMag-mean 
-  *In fequency domain, average value of mean body acceleration magnitude of the jerk signal for the subject performing given activity from accelerator collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyBodyAccJerkMag-mean 
+
+  * In fequency domain, average value of mean body acceleration magnitude of the jerk signal for the subject performing given activity from accelerator collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyBodyAccJerkMag-meanFreq 
-  *In fequency domain, average value of weighted mean body acceleration magnitude of the jerk signal for the subject performing given activity from accelerator collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyBodyAccJerkMag-meanFreq 
+
+  * In fequency domain, average value of weighted mean body acceleration magnitude of the jerk signal for the subject performing given activity from accelerator collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyBodyGyroMag-mean 
-  *In fequency domain, average value of mean body angular velocity magnitude for the subject performing given activity from gyroscope collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyBodyGyroMag-mean 
+
+  * In fequency domain, average value of mean body angular velocity magnitude for the subject performing given activity from gyroscope collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyBodyGyroMag-meanFreq
-  *In fequency domain, average value of weighted mean body angular velocity magnitude for the subject performing given activity from gyroscope collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyBodyGyroMag-meanFreq
+
+  * In fequency domain, average value of weighted mean body angular velocity magnitude for the subject performing given activity from gyroscope collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyBodyGyroJerkMag-mean 
-  *In fequency domain, average value of mean body angular velocity magnitude of the jerk signal for the subject performing given activity from gyroscope collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyBodyGyroJerkMag-mean 
+
+  * In fequency domain, average value of mean body angular velocity magnitude of the jerk signal for the subject performing given activity from gyroscope collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##fBodyBodyGyroJerkMag-meanFreq 
-  *In fequency domain, average value of weighted mean body angular velocity magnitude of the jerk signal for the subject performing given activity from gyroscope collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###fBodyBodyGyroJerkMag-meanFreq 
+
+  * In fequency domain, average value of weighted mean body angular velocity magnitude of the jerk signal for the subject performing given activity from gyroscope collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyAcc-std-X 
-  *In time domain, average value of standard deviation body acceleration for the subject performing given activity from accelerator in X direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyAcc-std-X 
+
+  * In time domain, average value of standard deviation body acceleration for the subject performing given activity from accelerator in X direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyAcc-std-Y 
-  *In time domain, average value of standard deviation body acceleration for the subject performing given activity from accelerator in Y direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyAcc-std-Y 
+
+  * In time domain, average value of standard deviation body acceleration for the subject performing given activity from accelerator in Y direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyAcc-std-Z 
-  *In time domain, average value of standard deviation body acceleration for the subject performing given activity from accelerator in Z direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyAcc-std-Z 
+
+  * In time domain, average value of standard deviation body acceleration for the subject performing given activity from accelerator in Z direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tGravityAcc-std-X 
-  *In time domain, average value of standard deviation gravity acceleration for the subject performing given activity from accelerator in X direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+###tGravityAcc-std-X 
+
+  * In time domain, average value of standard deviation gravity acceleration for the subject performing given activity from accelerator in X direction collected during experiment 
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tGravityAcc-std-Y 
-  *In time domain, average value of standard deviation gravity acceleration for the subject performing given activity from accelerator in Y direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+###tGravityAcc-std-Y 
+
+  * In time domain, average value of standard deviation gravity acceleration for the subject performing given activity from accelerator in Y direction collected during experiment 
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tGravityAcc-std-Z 
-  *In time domain, average value of standard deviation gravity acceleration for the subject performing given activity from accelerator in Z direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+###tGravityAcc-std-Z 
+
+  * In time domain, average value of standard deviation gravity acceleration for the subject performing given activity from accelerator in Z direction collected during experiment 
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyAccJerk-std-X
-  *In time domain, average value of standard deviation body acceleration of jerk signal for the subject performing given activity from accelerator in X direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyAccJerk-std-X
+
+  * In time domain, average value of standard deviation body acceleration of jerk signal for the subject performing given activity from accelerator in X direction collected during experiment 
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyAccJerk-std-Y
-  *In time domain, average value of standard deviation body acceleration of jerk signal for the subject performing given activity from accelerator in Y direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyAccJerk-std-Y
+
+  * In time domain, average value of standard deviation body acceleration of jerk signal for the subject performing given activity from accelerator in Y direction collected during experiment 
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyAccJerk-std-Z 
-  *In time domain, average value of standard deviation body acceleration of jerk signal for the subject performing given activity from accelerator in Z direction collected during experiment 
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyAccJerk-std-Z 
+
+  * In time domain, average value of standard deviation body acceleration of jerk signal for the subject performing given activity from accelerator in Z direction collected during experiment 
+  * Data type: real number
+  * Value: between [-1, 1]
   
-##tBodyGyro-std-X 
-  *In time domain, average value of standard deviation body Angular velocity for the subject performing given activity from gyroscope in X direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyGyro-std-X 
+
+  * In time domain, average value of standard deviation body Angular velocity for the subject performing given activity from gyroscope in X direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
  
-##tBodyGyro-std-Y
-  *In time domain, average value of standard deviation body Angular velocity for the subject performing given activity from gyroscope in Y direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
- 
-##tBodyGyro-std-Z 
-  *In time domain, average value of standard deviation body Angular velocity for the subject performing given activity from gyroscope in Z direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
- 
-##tBodyGyroJerk-std-X 
-  *In time domain, average value of standard deviation body Angular velocity of the jerk signal for the subject performing given activity from gyroscope in X direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
- 
-##tBodyGyroJerk-std-Y 
-  *In time domain, average value of standard deviation body Angular velocity of the jerk signal for the subject performing given activity from gyroscope in Y direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
- 
-##tBodyGyroJerk-std-Z 
-  *In time domain, average value of standard deviation body Angular velocity of the jerk signal for the subject performing given activity from gyroscope in Z direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
- 
-##tBodyAccMag-std 
-  *In time domain, average value of standard deviation body acceleration magnitude for the subject performing given activity from accelerator collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##tGravityAccMag-std 
-  *In time domain, average value of standard deviation gravity acceleration magnitude for the subject performing given activity from accelerator collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##tBodyAccJerkMag-std 
-  *In time domain, average value of standard deviation body acceleration magnitude of the jerk signal for the subject performing given activity from accelerator collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##tBodyGyroMag-std 
-  *In time domain, average value of standard deviation body angular velocity magnitude for the subject performing given activity from gyroscope collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##tBodyGyroJerkMag-std 
-  *In time domain, average value of standard deviation body angular velocity magnitude of the jerk signal for the subject performing given activity from gyroscope collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##fBodyAcc-std-X 
-  *In frequency domain, average value of standard deviation body acceleration for the subject performing given activity from accelerator in X direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##fBodyAcc-std-Y 
-  *In frequency domain, average value of standard deviation body acceleration for the subject performing given activity from accelerator in Y direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##fBodyAcc-std-Z 
-  *In frequency domain, average value of standard deviation body acceleration for the subject performing given activity from accelerator in Z direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##fBodyAccJerk-std-X 
-  *In frequency domain, average value of standard deviation body acceleration of the jerk signal for the subject performing given activity from accelerator in X direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##fBodyAccJerk-std-Y 
-  *In frequency domain, average value of standard deviation body acceleration of the jerk signal for the subject performing given activity from accelerator in Y direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##fBodyAccJerk-std-Z 
-  *In frequency domain, average value of standard deviation body acceleration of the jerk signal for the subject performing given activity from accelerator in Z direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##fBodyGyro-std-X 
-  *In frequency domain, average value of standard deviation body Angular velocity for the subject performing given activity from gyroscope in X direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##fBodyGyro-std-Y 
-  *In frequency domain, average value of standard deviation body Angular velocity for the subject performing given activity from gyroscope in Y direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##fBodyGyro-std-Z 
-  *In frequency domain, average value of standard deviation body Angular velocity for the subject performing given activity from gyroscope in Z direction collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##fBodyAccMag-std 
-  *In frequency domain, average value of standard deviation body acceleration magnitude for the subject performing given activity from accelerator collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##fBodyBodyAccJerkMag-std 
-  *In fequency domain, average value of standard deviation body acceleration magnitude of the jerk signal for the subject performing given activity from accelerator collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##fBodyBodyGyroMag-std 
-  *In fequency domain, average value of standard deviation body angular velocity magnitude for the subject performing given activity from gyroscope collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
-  
-##fBodyBodyGyroJerkMag-std
-  *In fequency domain, average value of standard deviation body angular velocity magnitude for the subject performing given activity from gyroscope collected during experiment
-  *Data type: real number
-  *Value: between [-1, 1]
+###tBodyGyro-std-Y
 
+  * In time domain, average value of standard deviation body Angular velocity for the subject performing given activity from gyroscope in Y direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+ 
+###tBodyGyro-std-Z 
+
+  * In time domain, average value of standard deviation body Angular velocity for the subject performing given activity from gyroscope in Z direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+ 
+###tBodyGyroJerk-std-X 
+
+  * In time domain, average value of standard deviation body Angular velocity of the jerk signal for the subject performing given activity from gyroscope in X direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+ 
+###tBodyGyroJerk-std-Y 
+
+  * In time domain, average value of standard deviation body Angular velocity of the jerk signal for the subject performing given activity from gyroscope in Y direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+ 
+###tBodyGyroJerk-std-Z 
+
+  * In time domain, average value of standard deviation body Angular velocity of the jerk signal for the subject performing given activity from gyroscope in Z direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+ 
+###tBodyAccMag-std 
+
+  * In time domain, average value of standard deviation body acceleration magnitude for the subject performing given activity from accelerator collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###tGravityAccMag-std 
+
+  * In time domain, average value of standard deviation gravity acceleration magnitude for the subject performing given activity from accelerator collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###tBodyAccJerkMag-std 
+
+  * In time domain, average value of standard deviation body acceleration magnitude of the jerk signal for the subject performing given activity from accelerator collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###tBodyGyroMag-std 
+
+  * In time domain, average value of standard deviation body angular velocity magnitude for the subject performing given activity from gyroscope collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###tBodyGyroJerkMag-std 
+
+  * In time domain, average value of standard deviation body angular velocity magnitude of the jerk signal for the subject performing given activity from gyroscope collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###fBodyAcc-std-X 
+
+  * In frequency domain, average value of standard deviation body acceleration for the subject performing given activity from accelerator in X direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###fBodyAcc-std-Y 
+
+  * In frequency domain, average value of standard deviation body acceleration for the subject performing given activity from accelerator in Y direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###fBodyAcc-std-Z 
+
+  * In frequency domain, average value of standard deviation body acceleration for the subject performing given activity from accelerator in Z direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###fBodyAccJerk-std-X 
+
+  * In frequency domain, average value of standard deviation body acceleration of the jerk signal for the subject performing given activity from accelerator in X direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###fBodyAccJerk-std-Y 
+
+  * In frequency domain, average value of standard deviation body acceleration of the jerk signal for the subject performing given activity from accelerator in Y direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###fBodyAccJerk-std-Z 
+
+  * In frequency domain, average value of standard deviation body acceleration of the jerk signal for the subject performing given activity from accelerator in Z direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###fBodyGyro-std-X 
+
+  * In frequency domain, average value of standard deviation body Angular velocity for the subject performing given activity from gyroscope in X direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###fBodyGyro-std-Y 
+
+  * In frequency domain, average value of standard deviation body Angular velocity for the subject performing given activity from gyroscope in Y direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###fBodyGyro-std-Z 
+
+  * In frequency domain, average value of standard deviation body Angular velocity for the subject performing given activity from gyroscope in Z direction collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###fBodyAccMag-std 
+
+  * In frequency domain, average value of standard deviation body acceleration magnitude for the subject performing given activity from accelerator collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###fBodyBodyAccJerkMag-std 
+
+  * In fequency domain, average value of standard deviation body acceleration magnitude of the jerk signal for the subject performing given activity from accelerator collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###fBodyBodyGyroMag-std 
+
+  * In fequency domain, average value of standard deviation body angular velocity magnitude for the subject performing given activity from gyroscope collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
+  
+###fBodyBodyGyroJerkMag-std
+
+  * In fequency domain, average value of standard deviation body angular velocity magnitude for the subject performing given activity from gyroscope collected during experiment
+  * Data type: real number
+  * Value: between [-1, 1]
