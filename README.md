@@ -37,7 +37,9 @@ The script run_analysis.R is broken down into 7 different sections:
 1. **_Mean By SA Tall.txt_** - this is the result from Step 5, which is a second data set summarized from step 4 result with mean value, and this dataset is a tall data tidy data.
 2. **_Mean By SA Wide.txt_** - this is alternative result similar to the Tall one but this one has all the measurements listed as column names, hence, the wide tidy data.
 
-
+## Code Book
+1. **_[CodeBook_Tall.md](https://github.com/liwenliangwa/TidyData/blob/master/CodeBook_Tall.md)_** - Code Book for Mean By SA Tall dataset
+2. **_[CodeBook_Wide.md](https://github.com/liwenliangwa/TidyData/blob/master/CodeBook_Wide.md)_** - Code Book for Mean by SA Wide dataset
 
 
 
