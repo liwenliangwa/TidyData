@@ -1,24 +1,28 @@
 # Code Book (Data Dictionary)
 
-##SubjectID
-  *Subject: Identifier to identify the participant in a group of 30 volunteers within an age bracket of 19-48 years
-  *Length: 1 ~ 2 
-  *Value: Between 1 to 30
+###SubjectID
+  
+  * Subject: Identifier to identify the participant in a group of 30 volunteers within an age bracket of 19-48 years
+  * Length: 1 ~ 2 
+  * Value: Between 1 to 30
 
-##Activity
-  *Activity performed by the subject
-  *Length: 6 ~ 18 
-  *Value: one of the following
+###Activity
+  
+  * Activity performed by the subject
+  * Length: 6 ~ 18 
+  * Value: one of the following
     1. WALKING
     2. WALKING_UPSTAIRS
     3. WALKING_DOWNSTAIRS
     4. SITTING
     5. STANDING 
     6. LAYING
-##variable
-  *Name of the measurement for the subject performance the specific activity
-  *Length:17 ~ 29
-  *Value: one of the following
+###variable
+  
+  * Name of the measurement for the subject performance the specific activity
+  * Length:17 ~ 29
+  * Value: one of the following
+  
     1. tBodyAcc-mean-X 
     2. tBodyAcc-mean-Y 
     3. tBodyAcc-mean-Z 
@@ -99,8 +103,9 @@
     78. fBodyBodyGyroMag-std 
     79. fBodyBodyGyroJerkMag-std
 
-##value
-    *The average value of measurement for the variable on the subject performing the specific activity
-    *Data type: real number
-    *Value: between [-1, 1]
+###value
+  
+    * The average value of measurement for the variable on the subject performing the specific activity
+    * Data type: real number
+    * Value: between [-1, 1]
 
