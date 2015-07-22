@@ -6,21 +6,6 @@ which represents data collected from the accelerometers from the Samsung Galaxy 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-##Transformation
-The dataset here was transformed using the raw dataset obtained above with the following steps:
-
-  1. Merge measurements from training dataset with measurements from test dataset.
-  2. Merge subject ids from training dataset with subject ids from test dataset.
-  3. Merge activity ids form training dataset with activity ids form test dataset
-  4. Merge subject ids with activity ids and measurments into one big dataset.
-  5. Identify interested features, extract only the measurements on the mean and standard deviation for each measurement.
-  6. Subset selected (interested) measurements from the merged dataset produced from step 1.
-  7. Look up activity id for each record and reference to the corresponding activity name using "merge" function.
-  8. Update dataset column names with names of selected features, and remove "()" from the each feature to form the name.
-  9. Reshaping the dataset to calculate average value of each measurement for specific subject & activity.
-    * Use melt() function to create a "wide" tidy data where mean value of each measurement is a column.
-    * Use dcast() funciton to create a "tall" tidy data where all measurement become values of "variable" column, and the mean value of each measurement is presented in "value" column.
-
 ###SubjectID
   
   * Subject: Identifier to identify the participant in a group of 30 volunteers within an age bracket of 19-48 years

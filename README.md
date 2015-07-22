@@ -28,10 +28,18 @@ The script run_analysis.R is broken down into 7 different sections:
   * test\X_test.txt - this file ctonains the test dataset values of each measurement
   * test\y_test.txt - this file contains the activity id for each recor
 1. Merges the training and the test sets to create one data set, using rbind & cbind
+  * rbind measurements from training dataset with measurements from test dataset.
+  * rbind subject ids from training dataset with subject ids from test dataset.
+  * rbind activity ids form training dataset with activity ids form test dataset
+  * cbind subject ids with activity ids and measurments into one big dataset.
 2. Extracts only the measurements on the mean and standard deviation for each measurement by subsetting the feature list.
+  * Using grep() function to identify interested features, extract only the measurements on the mean and standard deviation for each measurement.
+  * Subset selected (interested) measurements from the merged dataset produced from step 1.
 3. Uses descriptive activity names to name the activities in the data set, this is done by using the merge() function to associate activity ID with its corresponding activity name.
 4. Appropriately labels the data set with descriptive variable names, this is done by setting the column names of the data set using the subsetted feature list, and remove unnecessary "()"
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject, This is accomplished by using melt() and dcast() funciton to reshape the raw datasets.
+  * Use melt() function to create a "wide" tidy data where mean value of each measurement is a column.
+  * Use dcast() funciton to create a "tall" tidy data where all measurement become values of "variable" column, and the mean value of each measurement is presented in "value" column
 6. Output the data into files
 
 ## Results:
