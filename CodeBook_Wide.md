@@ -1,14 +1,17 @@
 # Code Book (Data Dictionary)
 
 ##SubjectID 
+
   *Subject: Identifier to identify the participant in a group of 30 volunteers within an age bracket of 19-48 years
   *Length: 1 ~ 2 
   *Value: Between 1 to 30
 	
 ##Activity
+
   *Activity performed by the subject
   *Length: 6 ~ 18 
   *Value: one of the following
+  
     1. WALKING
     2. WALKING_UPSTAIRS
     3. WALKING_DOWNSTAIRS
@@ -17,56 +20,67 @@
     6. LAYING
   
 ##tBodyAcc-mean-X 
+
   *In time domain, average value of mean body acceleration for the subject performing given activity from accelerator in X direction collected during experiment
   *Data type: real number
   *Value: between [-1, 1]
   
 ##tBodyAcc-mean-Y 
+
   *In time domain, average value of mean body acceleration for the subject performing given activity from accelerator in Y direction collected during experiment
   *Data type: real number
   *Value: between [-1, 1]
   
 ##tBodyAcc-mean-Z 
+
   *In time domain, average value of mean body acceleration for the subject performing given activity from accelerator in Z direction collected during experiment
   *Data type: real number
   *Value: between [-1, 1]
   
 ##tGravityAcc-mean-X
+
   *In time domain, average value of mean gravity acceleration for the subject performing given activity from accelerator in X direction collected during experiment 
   *Data type: real number
   *Value: between [-1, 1]
   
 ##tGravityAcc-mean-Y 
+
   *In time domain, average value of mean gravity acceleration for the subject performing given activity from accelerator in Y direction collected during experiment 
   *Data type: real number
   *Value: between [-1, 1]
   
 ##tGravityAcc-mean-Z 
+
   *In time domain, average value of mean gravity acceleration for the subject performing given activity from accelerator in Z direction collected during experiment 
   *Data type: real number
   *Value: between [-1, 1]
   
 ##tBodyAccJerk-mean-X 
+
   *In time domain, average value of mean body acceleration of jerk signal for the subject performing given activity from accelerator in X direction collected during experiment 
   *Data type: real number
   *Value: between [-1, 1]
   
 ##tBodyAccJerk-mean-Y 
+
   *In time domain, average value of mean body acceleration of jerk signal for the subject performing given activity from accelerator in Y direction collected during experiment 
   *Data type: real number
   *Value: between [-1, 1]
   
 ##tBodyAccJerk-mean-Z 
+
   *In time domain, average value of mean body acceleration of jerk signal for the subject performing given activity from accelerator in Z direction collected during experiment 
   *Data type: real number
   *Value: between [-1, 1]
   
 ##tBodyGyro-mean-X
+
   *In time domain, average value of mean body Angular velocity for the subject performing given activity from gyroscope in X direction collected during experiment
   *Data type: real number
   *Value: between [-1, 1]
   
 ##tBodyGyro-mean-Y 
+
   *In time domain, average value of mean body angular velocity for the subject performing given activity from gyroscope in Y direction collected during experiment
   *Data type: real number
   *Value: between [-1, 1]
