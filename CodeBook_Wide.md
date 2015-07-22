@@ -20,7 +20,7 @@ The dataset here was transformed using the raw dataset obtained above with the f
   9. Reshaping the dataset to calculate average value of each measurement for specific subject & activity.
   
     9.1. Use melt() function to create a "wide" tidy data where mean value of each measurement is a column.
-    9.1. Use dcast() funciton to create a "tall" tidy data where all measurement become values of "variable" column, and the mean value of each measurement is presented in "value" column
+    9.2. Use dcast() funciton to create a "tall" tidy data where all measurement become values of "variable" column, and the mean value of each measurement is presented in "value" column
   	
 
 ###SubjectID 
